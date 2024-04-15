@@ -54,7 +54,7 @@
         // Verify the password
         if (password_verify($password, $hash_password)) {
           // Password is correct, login successful
-          header("Location: home_page.php");
+          header("Location: students.php");
           exit();
         } else {
           // Password is incorrect, display an error message
